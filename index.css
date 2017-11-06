@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
+
+body {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.landing {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+    background-image: url("./img/main-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    height: 65px;
+    width: 100%;
+    font-size: 25px;
+    background-color: rgba(157, 255, 0, 0);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.landing-content {
+    height: 96vh;
+    width: 100vw;
+    /* background-image: url("./img/main-bg.jpeg");
+    background-position: center;
+    background-size: cover; */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+
+
+    
+}
+
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin-top: 40vh;
+}
+
+
+
+#title {
+    font-size: 80px;
+    font-weight: bold;
+}
+#second {
+    font-size: 30px;
+    font-weight: light;
+}
+.arrow {
+    margin-top: 30vh;
+
+}
+
+#arrow-button {
+    width: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    #toggle-desktop {
+        display: none;
+        margin-left:20px;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    #toggle-mobile {
+        display: none;
+    }
+
+}
+
+/* .nav img {
+    height: 20px;
+} */
+
+#facebook {
+    height: 50px;
+}
+
+#twitter {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#menu {
+    height: 30px;
+}
